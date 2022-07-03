@@ -46,7 +46,7 @@ const contact = () => {
                     Let's have a coffee
                 </h2>
                 <p className="text-xl text-gray-300 md:pr-16">Having a question or project idea in mind? Or wish to collab? 
-                Drop me a text and I will mail your back asap!</p>
+                Drop me a text and I will try to contact you as soon as possible.</p>
             </div>
 
             <div className="w-full mt-16 md:mt-0 md:w-2/5">
