@@ -21,9 +21,9 @@ const About = () => {
       <Navigation />
       <div className=" relative z-20 ">
         <div className="container  relative py-4">
-          <div className=" grid justify-items-center flex-col">
-            <h1 className="text-5xl">About me</h1>
-          </div>
+        <h2 className="max-w-3xl text-5xl md:text-6xl font-bold mx-auto dark:text-white text-gray-800 text-center py-2">
+          About Me
+          </h2>
           {/* <div className="avatar py-6 grid justify-items-center md:flex-col">
             <div className="w-24 mask mask-squircle">
               <Image
@@ -74,12 +74,10 @@ const About = () => {
                     
                   </div>
                 </div>
-                <div className="w-full md:w-1/2">
-                  {/* <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
-            <img src="https://cdn.devdojo.com/images/november2020/hero-image.jpeg" />
-          </div> */}
-                  <Lottie
-                    className="ml-[4%] md:ml-[30%] md:[width:400] md:[height:400]"
+                <div className="w-full md:w-1/2 ">
+                  
+                  <Lottie 
+                    className="ml-[4%] md:ml-[30%] md:[width:400] md:[height:400] sm:visible"
                     loop
                     animationData={moviescards}
                     play
@@ -205,7 +203,7 @@ const About = () => {
                       <span className="block xl:inline">
                         Check out my  {" "}
                       </span>
-                      <span className="block text-pink-600 xl:inline">
+                      <span className="block text-pink-300 xl:inline">
                         Socials <FontAwesomeIcon icon={faGlobe}/>
                       </span>
                     </h1>
@@ -218,7 +216,7 @@ const About = () => {
                         </div>
 
                         <div className="stat">
-                          <a href="https://www.instagram.com/manansharmaa5/">
+                          <a href="https://www.instagram.com/frail.brain/">
                           <div className="stat-value"><FontAwesomeIcon icon={faInstagram}/></div>
                          </a>
                         </div>

@@ -29,7 +29,7 @@ const contact = () => {
 
 
   return (<>
-    <main className="dark:bg-gradient-to-r from-gray-700 via-gray-800 to-gray-900 font-mono  relative  ">
+    <main className="dark:bg-gradient-to-r from-gray-700 via-gray-800 to-gray-900 font-mono h-screen md:overflow-hidden  relative">
       <Navigation />
       <div className="flex relative z-20 items-center">
         <div className="container mx-auto px-6 flex flex-col justify-between items-center relative py-4">
@@ -51,7 +51,7 @@ const contact = () => {
 
             <div className="w-full mt-16 md:mt-0 md:w-2/5">
                 <div className="relative z-10 h-auto p-8 py-10 overflow-hidden bg-gray-700 border-b-2 border-gray-700 rounded-lg shadow-2xl px-7">
-                    <h3 className="mb-6 text-2xl font-medium text-center">What's the gossip?</h3>
+                    <h3 className="mb-6 text-2xl text-gray-400 font-medium text-center">What's the gossip?</h3>
 
 
                     <form id='contact-form' onSubmit={handleSubmit(onSubmit)}>
@@ -59,7 +59,7 @@ const contact = () => {
                     <input type="email" required className="block w-full px-4 py-3 mb-4 text-black  border-2 border-transparent border-gray-200 rounded-lg focus:ring focus:ring-blue-500 focus:outline-none" placeholder="Email address" {...register("email")}  />
                     <textarea  className="block w-full px-4 py-3 mb-4  border-2 text-black  border-transparent border-gray-200 rounded-lg focus:ring focus:ring-blue-500 focus:outline-none" placeholder="Your masterplan" maxLength={1500} {...register("message")} />
                     <div className="block">
-                        <button id="letdo" type="submit" className="w-full px-3 py-4 font-medium  bg-gray-800 rounded-lg">Let's do it!</button>
+                        <button id="letdo" type="submit" className="w-full px-3 py-4 font-medium  bg-gray-200 rounded-lg">Let's do it!</button>
                     </div>
                     </form>
                     
