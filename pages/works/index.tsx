@@ -5,7 +5,7 @@ import cube from "../lotties/cube.json";
 import blockchain from "../lotties/blockchain.json"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import { faTrophy,faCheckCircle,faLink} from "@fortawesome/free-solid-svg-icons";
 
 const contact = () => {
@@ -69,6 +69,37 @@ const contact = () => {
     <div className="flex flex-wrap items-center -mx-3">
       <div className="order-1 w-full px-3 lg:w-1/2 lg:order-0">
         <div className="w-full lg:max-w-md">
+          <h2 className="mb-4 text-3xl font-bold leading-tight tracking-tight sm:text-4xl font-heading">Brain Controlled Interfacing (BCI) Drone</h2>
+          <p className="mb-4 font-medium tracking-tight text-gray-400 xl:mb-6"> One of its kind, a dream project, wherein Brain waves are mapped to control UAV movements. Project is midway and drone is fully assembled.</p>
+          <ul>
+            {/* <li className="flex items-center py-2 space-x-4 xl:py-3">
+            <FontAwesomeIcon icon={faTrophy}/>
+              <span className="font-medium text-gray-500">Faster Processing and Delivery</span>
+            </li>
+            <li className="flex items-center py-2 space-x-4 xl:py-3">
+            <FontAwesomeIcon icon={faCheckCircle}/>
+              <span className="font-medium text-gray-500">Out of the Box Tracking and Monitoring</span>
+            </li> */}
+            <li className="flex items-center py-2 space-x-4 xl:py-3">
+              <a href="https://www.linkedin.com/feed/update/urn:li:activity:7055404008647077888/">
+              <span className="text-4xl text-gray-500"><FontAwesomeIcon icon={faLinkedin}/></span>
+              </a>
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0">
+        <img className="mx-auto sm:max-w-sm lg:max-w-full" src="images/bcd.jpg" alt="feature image" />
+        </div>
+    </div>
+  </div>
+</section>
+<section className="py-20 ">
+  <div className="container items-center max-w-6xl  px-10 mx-auto sm:px-20 md:px-32 lg:px-16">
+    <div className="flex flex-wrap items-center -mx-3">
+      <div className="order-1 w-full px-3 lg:w-1/2 lg:order-0">
+        <div className="w-full lg:max-w-md">
           <h2 className="mb-4 text-3xl font-bold leading-tight tracking-tight sm:text-4xl font-heading">Blockchain Based land registry</h2>
           <p className="mb-4 font-medium tracking-tight text-gray-400 xl:mb-6"> Provides you with a distributed database where anyone can record and update information. Buying and selling land is also made hassle free.</p>
           <ul>
@@ -93,6 +124,81 @@ const contact = () => {
       </div>
       <div className="w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0">
         <img className="mx-auto sm:max-w-sm lg:max-w-full" src="images/land_registry.png" alt="feature image" />
+        </div>
+    </div>
+  </div>
+</section>
+<section className="py-20 ">
+  <div className="container items-center max-w-6xl  px-10 mx-auto sm:px-20 md:px-32 lg:px-16">
+    <div className="flex flex-wrap items-center -mx-3">
+      <div className="order-1 w-full px-3 lg:w-1/2 lg:order-0">
+        <div className="w-full lg:max-w-md">
+          <h2 className="mb-4 text-3xl font-bold leading-tight tracking-tight sm:text-4xl font-heading">Sumowars Bot</h2>
+          <p className="mb-4 font-medium tracking-tight text-gray-400 xl:mb-6">In this robotics competition, two robots compete against each other in a circular ring,
+           trying to push their opponent out of the ring or immobilize them. The bot was completely built from scrap and weighed around 4.5 Kgs</p>
+          <ul>
+            <li className="flex items-center py-2 space-x-4 xl:py-3">
+            <FontAwesomeIcon icon={faTrophy}/>
+              <span className="font-medium text-gray-500">Winner, Xpecto IIT Mandi</span>
+            </li>
+            
+            {/* <li className="flex items-center py-2 space-x-4 xl:py-3">
+            <FontAwesomeIcon icon={faCheckCircle}/>
+              <span className="font-medium text-gray-500">Out of the Box Tracking and Monitoring</span>
+            </li> */}
+            <li className="flex items-center py-2 space-x-4 xl:py-3">
+              {/* <a href="http://github.com">
+              <span className="text-4xl text-gray-500"><FontAwesomeIcon icon={faGithub}/></span>
+              </a> */}
+              <a href="https://www.linkedin.com/feed/update/urn:li:activity:7038953752636080129/">
+              <span className="text-4xl text-gray-500"><FontAwesomeIcon icon={faLinkedin}/></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0">
+        <img className="mx-auto sm:max-w-sm lg:max-w-full" src="images/iitmandi.jpg" alt="feature image" />
+        </div>
+    </div>
+  </div>
+</section>
+<section className="py-20 ">
+  <div className="container items-center max-w-6xl  px-10 mx-auto sm:px-20 md:px-32 lg:px-16">
+    <div className="flex flex-wrap items-center -mx-3">
+      <div className="order-1 w-full px-3 lg:w-1/2 lg:order-0">
+        <div className="w-full lg:max-w-md">
+          <h2 className="mb-4 text-3xl font-bold leading-tight tracking-tight sm:text-4xl font-heading">NRF based Pick n Place Bot</h2>
+          <p className="mb-4 font-medium tracking-tight text-gray-400 xl:mb-6">The NRF module is commonly used in 
+          Internet of Things (IoT) applications, This allows for wireless communication using the NRF protocol.
+           It is known for its low power consumption and long-range capabilities.</p>
+          <ul>
+            <li className="flex items-center py-2 space-x-4 xl:py-3">
+            <FontAwesomeIcon icon={faCheckCircle}/>
+              <span className="font-medium text-gray-500">Top 20 teams Techkriti, IIT Kanpur (2023)</span>
+            </li>
+            <li className="flex items-center py-2 space-x-4 xl:py-3">
+            <FontAwesomeIcon icon={faCheckCircle}/>
+              <span className="font-medium text-gray-500">Completely coded from scratch, first of its kind bot, 
+               completely controlled by radio frequency</span>
+            </li>
+            {/* <li className="flex items-center py-2 space-x-4 xl:py-3">
+            <FontAwesomeIcon icon={faCheckCircle}/>
+              <span className="font-medium text-gray-500">Out of the Box Tracking and Monitoring</span>
+            </li> */}
+            <li className="flex items-center py-2 space-x-4 xl:py-3">
+              {/* <a href="http://github.com">
+              <span className="text-4xl text-gray-500"><FontAwesomeIcon icon={faGithub}/></span>
+              </a> */}
+              <a href="https://drive.google.com/file/d/1w66I-JvKOvl4BVrUh3zbe_iNXincLrgA/view?usp=drive_link">
+              <span className="text-4xl text-gray-500"><FontAwesomeIcon icon={faLink}/></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0">
+        <img className="mx-auto sm:max-w-sm lg:max-w-full" src="images/Techkriti.jpg" alt="feature image" />
         </div>
     </div>
   </div>

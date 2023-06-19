@@ -58,8 +58,8 @@ const About = () => {
 
                         <div className="stat">
                           <div className="stat-title">Total Commits</div>
-                          <div className="stat-value">500+</div>
-                          <div className="stat-desc">↗︎ 14 PR's</div>
+                          <div className="stat-value">800+</div>
+                          <div className="stat-desc">↗︎ 27 PR's</div>
                         </div>
 
                         <div className="stat">
@@ -111,14 +111,14 @@ const About = () => {
 
                         <div className="stat">
                           <div className="stat-title">Content Views</div>
-                          <div className="stat-value">100k</div>
+                          <div className="stat-value">400k</div>
                           <div className="stat-desc">↗︎ 65k max streak</div>
                         </div>
 
                         <div className="stat">
                           <div className="stat-title">Spaces</div>
                           <div className="stat-value">1</div>
-                          <div className="stat-desc">27 followers</div>
+                          <div className="stat-desc">46 followers</div>
                         </div>
                       </div>
                     </div>
@@ -172,7 +172,7 @@ const About = () => {
                         <div className="stat">
                           <div className="stat-title">Kit number</div>
                           <div className="stat-value">5</div>
-                          <div className="stat-desc">Carles Puyol</div>
+                          <div className="stat-desc">Visca el Barça</div>
                         </div>
                       </div>
                     </div>
@@ -210,7 +210,7 @@ const About = () => {
                     <div className="stats shadow md:ml-[0%] ml-[38%]">
                       <div className="stats stats-vertical lg:stats-horizontal shadow">
                         <div className="stat">
-                         <a href="https://www.linkedin.com/in/manan-sharma-1a5202207/">
+                         <a href="https://www.linkedin.com/in/manansharmaa">
                           <div className="stat-value"><FontAwesomeIcon icon={faLinkedin}/></div>
                          </a>
                         </div>

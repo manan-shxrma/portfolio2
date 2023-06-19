@@ -42,10 +42,10 @@ const contact = () => {
 
             <div className="w-full space-y-5 md:w-3/5 md:pr-16">
                 
-                <h2 className="text-2xl font-extrabold leading-none text-gray-400 sm:text-3xl md:text-5xl">
+                <h2 className="text-2xl font-extrabold leading-none text-gray-500 dark:text-gray-400 sm:text-3xl md:text-5xl">
                     Let's have a coffee
                 </h2>
-                <p className="text-xl text-gray-300 md:pr-16">Having a question or project idea in mind? Or wish to collab? 
+                <p className="text-xl text-gray-500 dark:text-gray-300 md:pr-16">Having a question or project idea in mind? Or wish to collab? 
                 Drop me a text and I will try to contact you as soon as possible.</p>
             </div>
 

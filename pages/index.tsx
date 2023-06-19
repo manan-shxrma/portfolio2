@@ -28,21 +28,24 @@ const Home: NextPage = () => {
                 <p className="text-3xl my-6 text-center dark:text-white">
                     Hi, I'm Manan
                 </p>
-                <p className="text-3xl my-6 text-center dark:text-white">
-                    A prefinal year <br /> Electrical engineering <br /> undergrad at NIT Hamirpur,
+                <p className="text-3xl md:my-12 my-24 text-center dark:text-white">
+                    A prefinal year <br /> Electrical engineering <br /> undergrad at NIT Hamirpur
                 </p>
                 <h2 className="max-w-3xl text-5xl md:text-6xl font-bold mx-auto dark:text-white text-gray-800 text-center py-2">
+                <div className="hidden md:block lg:block">
                 <Typewriter
                               options={{
-                                strings: ['A web dev enthusiast', 'Indie lover', 'A blogger', 
+                                strings: ['A web dev geek',' blockchain enthusiast','a roboticist '
+                                , 'Indie lover', 'A blogger', 
                                           'A footballer'],
                                 autoStart: true,
                                 loop: true,
                               }}
                             />
+                            </div>
                 </h2>
-                <div className="flex items-center justify-center mt-24 md:mt-4">
-                    <a href="/contact"  className="uppercase py-2 my-2 px-4 md:mt-16 bg-transparent bg-gray-600 text-white hover:bg-gray-700 text-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
+                <div className="flex items-center justify-center md:pt-12  md:mt-4">
+                    <a href="/contact" className="btn dark:text-white text-gray-600 glass">
                         CONNECT WITH ME
                     </a>
                 </div>
